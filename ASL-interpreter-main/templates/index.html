@@ -1,0 +1,33 @@
+<!--- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture Classifier</title>
+</head>
+<body>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Converter</title>
+    <style>
+        #video-container {
+            display: flex;
+            align-items-center: center;
+            justify-content: center;
+        }
+    </style>
+    <!-- Add any additional CSS stylesheets or scripts here -->
+</head>
+<body>
+    <div id="video-container">
+        <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+</body>
+</html>
